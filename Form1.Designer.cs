@@ -78,7 +78,6 @@
             this.label5.Size = new System.Drawing.Size(52, 25);
             this.label5.TabIndex = 4;
             this.label5.Text = "公尺";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // label2
             // 
@@ -90,7 +89,6 @@
             this.label2.Size = new System.Drawing.Size(52, 25);
             this.label2.TabIndex = 7;
             this.label2.Text = "英呎";
-            this.label2.Click += new System.EventHandler(this.label2_Click_1);
             // 
             // label3
             // 
@@ -102,7 +100,6 @@
             this.label3.Size = new System.Drawing.Size(32, 25);
             this.label3.TabIndex = 6;
             this.label3.Text = "碼";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label6
             // 
@@ -114,7 +111,6 @@
             this.label6.Size = new System.Drawing.Size(52, 25);
             this.label6.TabIndex = 5;
             this.label6.Text = "英吋";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // txtCM
             // 
@@ -122,7 +118,7 @@
             this.txtCM.Name = "txtCM";
             this.txtCM.Size = new System.Drawing.Size(100, 25);
             this.txtCM.TabIndex = 8;
-            this.txtCM.TextChanged += new System.EventHandler(this.txtCM_TextChanged);
+            this.txtCM.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtCM_KeyUp);
             // 
             // txtM
             // 
@@ -130,7 +126,6 @@
             this.txtM.Name = "txtM";
             this.txtM.Size = new System.Drawing.Size(100, 25);
             this.txtM.TabIndex = 9;
-            this.txtM.TextChanged += new System.EventHandler(this.txtM_TextChanged);
             // 
             // txtKM
             // 
@@ -145,7 +140,6 @@
             this.txtYard.Name = "txtYard";
             this.txtYard.Size = new System.Drawing.Size(100, 25);
             this.txtYard.TabIndex = 13;
-            this.txtYard.TextChanged += new System.EventHandler(this.txtYard_TextChanged);
             // 
             // txtFt
             // 
@@ -153,7 +147,6 @@
             this.txtFt.Name = "txtFt";
             this.txtFt.Size = new System.Drawing.Size(100, 25);
             this.txtFt.TabIndex = 12;
-            this.txtFt.TextChanged += new System.EventHandler(this.txtFt_TextChanged);
             // 
             // txtIn
             // 
@@ -161,7 +154,6 @@
             this.txtIn.Name = "txtIn";
             this.txtIn.Size = new System.Drawing.Size(100, 25);
             this.txtIn.TabIndex = 11;
-            this.txtIn.TextChanged += new System.EventHandler(this.txtIn_TextChanged);
             // 
             // btnAllClear
             // 
@@ -191,7 +183,6 @@
             this.label7.Size = new System.Drawing.Size(92, 25);
             this.label7.TabIndex = 16;
             this.label7.Text = "說明文字";
-            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // Form1
             // 
@@ -216,7 +207,6 @@
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
