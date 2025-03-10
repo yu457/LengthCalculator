@@ -51,5 +51,35 @@ namespace LengthCalculator
         {
 
         }
+
+        private void txtCM_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtM_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtYard_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnAllClear_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtIn_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtFt_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
